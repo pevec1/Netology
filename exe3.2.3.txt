@@ -1,0 +1,44 @@
+https://codepen.io/pevec1/full/PoaYmqe
+
+
+
+.field {
+  box-sizing: border-box;
+  width: 485px;
+  border: 2px solid #dadada;
+  padding: 10px 25px 10px 65px;
+  margin: 0;
+  
+  display: inline-block;
+  vertical-align: middle;
+  
+  font-size: 14px;
+  height: 55px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.field:focus {
+  outline: none;
+  border-color: #9b59b6;
+}
+
+.field {
+  background: url("https://netology-code.github.io/html-2-homeworks/form-elements/search-field/img/search.svg");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: left 20px center;
+}
+
+
+
+
+<div class="page">
+  <form class="search">
+    <label class="search-group">
+      <span class="search-hint">Не можете что-то найти? Используйте поиск!</span>
+      <input class="field" name="query" placeholder="Например, Iphone X" required>
+	</label>
+    <button class="button">Найти</button>
+  </form>
+</div>
